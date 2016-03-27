@@ -1,0 +1,53 @@
+body{margin: 0;padding: 0;font-size: 63%;background-color: rgb(222, 222, 222); line-height: 2.2em;}
+nav a{color: rgb(255,255,255);text-decoration: none;}
+input,textarea,select{font-size:100%;font-family:inherit;}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,form{margin:0;}
+h4,h5,h6{font-size:1em;}
+ul,ol,li{padding-left:0; list-style-type:none;}
+/*----my reset----*/
+
+
+nav img{border:0; height: 38px; width: 30px; padding: 2px; margin-left: 10px;}
+nav{width: 100%;min-height:10px;min-width: 450px;background-color: rgb(51, 51, 51);}
+#nav-list li{line-height: 45px;display: inline-block;}
+#nav-list li:hover{background-color: red;}
+#nav-list{float: right;margin-right: 10px;}
+nav:after{clear: both;display: block;content: '';} 
+/*-----my nav end----*/
+
+
+article{ min-height: 100px; min-width: 650px; margin:20px; background-color: rgb(255,255,255); padding: 30px 20px; -webkit-box-shadow: 2px 3px 5px  rgb(52,52,52);
+box-shadow: 2px 3px 5px  rgb(52,52,52); border-radius: 10px;font-size: 1.4em;}
+article img{max-height:100px;}
+/*article style*/
+
+
+#tab-test th{background-color: black;color: rgb(255,255,255);}
+#tab-test tr:last-child{background-color: rgb(204,204,204);}
+#tab-test th{width:500px;}
+
+#tab-sign td:nth-child(2){text-align: right; min-width: 150px;}
+#tab-sign td:nth-child(1){width: 40%; height: 38px;}
+
+/*table*/
+
+
+.img-box{width:200px;min-height: 20px; border:1px solid rgb(222,222,222); text-align: center;margin-top: 20px;padding:5px;font-weight: bold;}
+/*my img*/
+
+
+.btn-go{ width:100%;color:rgb(255,255,255); height: 35px; background-color: rgb(51, 85, 208); border-radius:5px;}
+/*my input*/
+
+
+footer{background-color: rgb(51,51,51);text-align: center;position: relative;bottom: 0;}
+footer span{line-height: 80px;color: rgb(255,255,255);}
+/*my footer*/
+
+
+
+
+
+
+
+
