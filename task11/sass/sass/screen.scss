@@ -1,0 +1,97 @@
+body{line-height:1.4;color:#333;font-family:"微软雅黑";font-size: 63%;width: 100%;margin: 0;background-color: rgb(245, 245, 245);}
+input,textarea,select{font-size:100%;font-family:inherit;}
+h1,h2,h3,h4,h5,h6,p,ul,ol,form,header,nav,figure{margin:0;}
+h4,h5,h6{font-size:1em;}
+ul,ol{padding-left:0; list-style-type:none;}
+a img{border:0;}
+/*my reset*/
+
+$f-c-t:rgb(71, 71, 71);
+$f-c:rgb(101, 101, 101);
+$f-c-time:rgb(199, 199, 199);
+
+$b:rgb(245, 245, 245);
+$nav-b:rgb(145, 212, 218);
+@font-face{
+    font-family:"icon";
+    
+    src: url(../../fontIcon/foundation-icons.svg);
+    src: url(../../fontIcon/foundation-icons.ttf);
+    src: url(../../fontIcon/foundation-icons.eot);
+    src: url(../../fontIcon/foundation-icons.woff);
+    }
+   @font-face{
+       font-family: 'myicon';
+       src: url(../../fontIcon/iconfont.svg);
+       src: url(../../fontIcon/iconfont.ttf);
+       src: url(../../fontIcon/iconfont.eot);
+       src: url(../../fontIcon/iconfont.woff);
+   }
+.icon{font-family: 'myicon';font-size: 1.8em;vertical-align: middle;letter-spacing: -7px;}
+/*my fun*/
+
+/* my ass*/
+
+/*代码开始*/
+header{width: 100%; background-color: $nav-b; text-align: center; color: #ffffff;}
+header h1{margin: 0 auto;line-height: 2.6em;display: inline-block;}
+header>span{position: absolute;left:0;font-size: 1.7em;top: 6px;cursor: pointer;}
+header h1{cursor: pointer;}
+
+nav{background-color: #FFFFFF;}
+nav li{display: inline-block;width: 20%;margin: 0 auto;text-align: center;line-height: 40px;font-size: 1.4em;}
+nav li:hover{border-bottom: 2px solid $nav-b; line-height: 36px;}
+/*my header*/
+        
+        
+figure img{width: 100%;margin-top: 1px;} 
+/*my banana*/      
+
+
+.header-menu{background-color: #FFFFFF;margin-top: 10px;padding-bottom: 10px;}
+.menu li{display: inline-block;width:20%; text-align: center;}
+.menu img{width: 50px;height:50px;border-radius: 50%;-moz-border-radius: 50%;margin-top:10px;}
+.menu p{line-height: 40px;font-size: 1.4em;}
+.menu{margin-bottom: 10px;margin-left: 10px;margin-right: 10px;border-bottom: 2px solid $b;}
+
+.col{margin: 10px;}
+.col img{width: 100px;}
+.col li{display: inline-block;text-align: center;width: 32%;border-left: 2px solid $b;}
+.col li:nth-child(1){border: none;}
+/*my col and menu*/
+
+
+.mod{background-color: #FFFFFF;margin-top: 10px;}
+.mod h1{margin: 10px 10px;line-height: 30px;border-bottom:2px solid $b;}
+.mod-con{margin: 10px;}
+
+
+.mod-con-t img{width: 25%;display: inline-block;float: left;}
+.mod-con-t:after{content: '';clear: both;display: block;}
+.mod-con-t div{display: inline-block;width: 28%;margin-left: 20px;margin-bottom: 20px;
+               background-color: $b;font-size: 1.2em;
+               text-align: center;padding-bottom: 3px;padding-top: 4px;}
+
+/*my mod*/
+
+
+.article{background-color: #FFFFFF;margin-top: 10px;border-bottom: 2px solid $b;position: relative;}
+.art-1{position: relative; border: 2px solid $b;}
+.art-1 img{width: 30%;margin: 10px;display: inline-block;}
+.art-right{display: inline-block; position: absolute;top: 10px;margin-right: 10px;}
+.art-right p{font-size: 1.6em;}
+.art-right span{bottom: 10px;position: absolute;top: 56px;right:10px;color: $f-c-time;}
+
+.art-2 img{width: 32%;height: 75px;}
+.art-2 figcaption{margin-left: 10px ; margin-right: 10px;}
+.art-2 p{margin-left: 10px; font-size: 1.5em;line-height: 50px;}
+.art-2 span{margin-left: 10px;line-height: 30px;color: $f-c-time;}
+
+
+.footer{margin: 0 auto;width: 100%;padding-top:25px;padding-bottom:25px ;text-align: center;margin-top: 10px;background-color: $nav-b;
+         font-size: 2.0em;color: #FFFFFF;}
+
+
+
+
+
