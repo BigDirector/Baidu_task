@@ -1,0 +1,30 @@
+#div{
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -100px;
+	overflow: hidden;
+}
+#o{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	margin-left: -50px;
+	margin-top: -50px;
+	border-radius: 100%;
+}
+#o-t{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	border-radius: 100%;
+	margin-bottom: -50px;
+	margin-right: -50px; 
+}
